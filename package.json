@@ -1,0 +1,22 @@
+{
+    "name": "react-jsx-to-js-playground",
+    "version": "0.1.0",
+    "main": "index.js",
+    "type": "module",
+    "author": "nbogie",
+    "license": "MIT",
+    "description": "Playground for exploring the JavaScript code that corresponds to your JSX",
+    "scripts": {
+        "compile:watch": "rimraf compiled/ & tsc --watch",
+        "format-output": "prettier --write compiled/"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.14",
+        "@types/react-dom": "^18.2.6",
+        "prettier": "^2.8.8",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "rimraf": "^5.0.1",
+        "typescript": "^5.1.6"
+    }
+}
